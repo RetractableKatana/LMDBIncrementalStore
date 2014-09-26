@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09281C3219D4FCAD00E2D0CC /* mdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 09281C1E19D4FC9E00E2D0CC /* mdb.c */; };
+		09281C3319D4FCB300E2D0CC /* midl.c in Sources */ = {isa = PBXBuildFile; fileRef = 09281C2719D4FC9E00E2D0CC /* midl.c */; };
+		09281C3619D4FF5B00E2D0CC /* lmdb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09281C1C19D4FC9E00E2D0CC /* lmdb.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09281BE219D4FBB200E2D0CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				09281C3619D4FF5B00E2D0CC /* lmdb.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09281BE419D4FBB200E2D0CC /* libLMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		09281C1919D4FC9E00E2D0CC /* COPYRIGHT */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
+		09281C1B19D4FC9E00E2D0CC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09281C1C19D4FC9E00E2D0CC /* lmdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lmdb.h; sourceTree = "<group>"; };
+		09281C1E19D4FC9E00E2D0CC /* mdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mdb.c; sourceTree = "<group>"; };
+		09281C2719D4FC9E00E2D0CC /* midl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = midl.c; sourceTree = "<group>"; };
+		09281C2819D4FC9E00E2D0CC /* midl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = midl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09281BE119D4FBB200E2D0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09281BDB19D4FBB200E2D0CC = {
+			isa = PBXGroup;
+			children = (
+				09281BE919D4FBB200E2D0CC /* LMDB */,
+				09281BE519D4FBB200E2D0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09281BE519D4FBB200E2D0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09281BE419D4FBB200E2D0CC /* libLMDB.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09281BE919D4FBB200E2D0CC /* LMDB */ = {
+			isa = PBXGroup;
+			children = (
+				09281C1619D4FC9E00E2D0CC /* liblmdb */,
+			);
+			path = LMDB;
+			sourceTree = "<group>";
+		};
+		09281C1619D4FC9E00E2D0CC /* liblmdb */ = {
+			isa = PBXGroup;
+			children = (
+				09281C1919D4FC9E00E2D0CC /* COPYRIGHT */,
+				09281C1B19D4FC9E00E2D0CC /* LICENSE */,
+				09281C1C19D4FC9E00E2D0CC /* lmdb.h */,
+				09281C1E19D4FC9E00E2D0CC /* mdb.c */,
+				09281C2719D4FC9E00E2D0CC /* midl.c */,
+				09281C2819D4FC9E00E2D0CC /* midl.h */,
+			);
+			name = liblmdb;
+			path = ../../libraries/liblmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09281BE319D4FBB200E2D0CC /* LMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09281C0719D4FBB200E2D0CC /* Build configuration list for PBXNativeTarget "LMDB" */;
+			buildPhases = (
+				09281BE019D4FBB200E2D0CC /* Sources */,
+				09281BE119D4FBB200E2D0CC /* Frameworks */,
+				09281BE219D4FBB200E2D0CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMDB;
+			productName = LMDB;
+			productReference = 09281BE419D4FBB200E2D0CC /* libLMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09281BDC19D4FBB200E2D0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IntelligentSprite;
+			};
+			buildConfigurationList = 09281BDF19D4FBB200E2D0CC /* Build configuration list for PBXProject "LMDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09281BDB19D4FBB200E2D0CC;
+			productRefGroup = 09281BE519D4FBB200E2D0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09281BE319D4FBB200E2D0CC /* LMDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09281BE019D4FBB200E2D0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09281C3219D4FCAD00E2D0CC /* mdb.c in Sources */,
+				09281C3319D4FCB300E2D0CC /* midl.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09281C0519D4FBB200E2D0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LLVM_LTO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09281C0619D4FBB200E2D0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LLVM_LTO = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09281C0819D4FBB200E2D0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LMDB.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		09281C0919D4FBB200E2D0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LMDB.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09281BDF19D4FBB200E2D0CC /* Build configuration list for PBXProject "LMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09281C0519D4FBB200E2D0CC /* Debug */,
+				09281C0619D4FBB200E2D0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09281C0719D4FBB200E2D0CC /* Build configuration list for PBXNativeTarget "LMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09281C0819D4FBB200E2D0CC /* Debug */,
+				09281C0919D4FBB200E2D0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09281BDC19D4FBB200E2D0CC /* Project object */;
+}

@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09281BB619D4FA8400E2D0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09281BB519D4FA8400E2D0CC /* Foundation.framework */; };
+		09281BBB19D4FA8400E2D0CC /* LMDBIncrementalStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09281BBA19D4FA8400E2D0CC /* LMDBIncrementalStore.h */; };
+		09281BBD19D4FA8400E2D0CC /* LMDBIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 09281BBC19D4FA8400E2D0CC /* LMDBIncrementalStore.m */; };
+		09281BC419D4FA8400E2D0CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09281BC319D4FA8400E2D0CC /* XCTest.framework */; };
+		09281BC519D4FA8400E2D0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09281BB519D4FA8400E2D0CC /* Foundation.framework */; };
+		09281BC719D4FA8400E2D0CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09281BC619D4FA8400E2D0CC /* UIKit.framework */; };
+		09281BCA19D4FA8400E2D0CC /* libLMDBIncrementalStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09281BB219D4FA8400E2D0CC /* libLMDBIncrementalStore.a */; };
+		09281BD019D4FA8400E2D0CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09281BCE19D4FA8400E2D0CC /* InfoPlist.strings */; };
+		09281BD219D4FA8400E2D0CC /* LMDBIncrementalStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09281BD119D4FA8400E2D0CC /* LMDBIncrementalStoreTests.m */; };
+		09281C3519D4FF2A00E2D0CC /* libLMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09281C3419D4FF2A00E2D0CC /* libLMDB.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09281BC819D4FA8400E2D0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09281BAA19D4FA8400E2D0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09281BB119D4FA8400E2D0CC;
+			remoteInfo = LMDBIncrementalStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09281BB019D4FA8400E2D0CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				09281BBB19D4FA8400E2D0CC /* LMDBIncrementalStore.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09281BB219D4FA8400E2D0CC /* libLMDBIncrementalStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLMDBIncrementalStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		09281BB519D4FA8400E2D0CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09281BB919D4FA8400E2D0CC /* LMDBIncrementalStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LMDBIncrementalStore-Prefix.pch"; sourceTree = "<group>"; };
+		09281BBA19D4FA8400E2D0CC /* LMDBIncrementalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMDBIncrementalStore.h; sourceTree = "<group>"; };
+		09281BBC19D4FA8400E2D0CC /* LMDBIncrementalStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMDBIncrementalStore.m; sourceTree = "<group>"; };
+		09281BC219D4FA8400E2D0CC /* LMDBIncrementalStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMDBIncrementalStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09281BC319D4FA8400E2D0CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		09281BC619D4FA8400E2D0CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		09281BCD19D4FA8400E2D0CC /* LMDBIncrementalStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LMDBIncrementalStoreTests-Info.plist"; sourceTree = "<group>"; };
+		09281BCF19D4FA8400E2D0CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09281BD119D4FA8400E2D0CC /* LMDBIncrementalStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMDBIncrementalStoreTests.m; sourceTree = "<group>"; };
+		09281C3419D4FF2A00E2D0CC /* libLMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLMDB.a; path = "../../../Library/Developer/Xcode/DerivedData/LMDBIncrementalStore-hddunlfbbsbdgnbixmfwkzoxbzwo/Build/Products/Debug-iphoneos/libLMDB.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09281BAF19D4FA8400E2D0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09281BB619D4FA8400E2D0CC /* Foundation.framework in Frameworks */,
+				09281C3519D4FF2A00E2D0CC /* libLMDB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09281BBF19D4FA8400E2D0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09281BC419D4FA8400E2D0CC /* XCTest.framework in Frameworks */,
+				09281BCA19D4FA8400E2D0CC /* libLMDBIncrementalStore.a in Frameworks */,
+				09281BC719D4FA8400E2D0CC /* UIKit.framework in Frameworks */,
+				09281BC519D4FA8400E2D0CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09281BA919D4FA8400E2D0CC = {
+			isa = PBXGroup;
+			children = (
+				09281BB719D4FA8400E2D0CC /* LMDBIncrementalStore */,
+				09281BCB19D4FA8400E2D0CC /* LMDBIncrementalStoreTests */,
+				09281BB419D4FA8400E2D0CC /* Frameworks */,
+				09281BB319D4FA8400E2D0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09281BB319D4FA8400E2D0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09281BB219D4FA8400E2D0CC /* libLMDBIncrementalStore.a */,
+				09281BC219D4FA8400E2D0CC /* LMDBIncrementalStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09281BB419D4FA8400E2D0CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09281C3419D4FF2A00E2D0CC /* libLMDB.a */,
+				09281BB519D4FA8400E2D0CC /* Foundation.framework */,
+				09281BC319D4FA8400E2D0CC /* XCTest.framework */,
+				09281BC619D4FA8400E2D0CC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09281BB719D4FA8400E2D0CC /* LMDBIncrementalStore */ = {
+			isa = PBXGroup;
+			children = (
+				09281BBA19D4FA8400E2D0CC /* LMDBIncrementalStore.h */,
+				09281BBC19D4FA8400E2D0CC /* LMDBIncrementalStore.m */,
+				09281BB819D4FA8400E2D0CC /* Supporting Files */,
+			);
+			name = LMDBIncrementalStore;
+			path = source;
+			sourceTree = "<group>";
+		};
+		09281BB819D4FA8400E2D0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09281BB919D4FA8400E2D0CC /* LMDBIncrementalStore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09281BCB19D4FA8400E2D0CC /* LMDBIncrementalStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				09281BD119D4FA8400E2D0CC /* LMDBIncrementalStoreTests.m */,
+				09281BCC19D4FA8400E2D0CC /* Supporting Files */,
+			);
+			name = LMDBIncrementalStoreTests;
+			path = tests;
+			sourceTree = "<group>";
+		};
+		09281BCC19D4FA8400E2D0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09281BCD19D4FA8400E2D0CC /* LMDBIncrementalStoreTests-Info.plist */,
+				09281BCE19D4FA8400E2D0CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09281BB119D4FA8400E2D0CC /* LMDBIncrementalStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09281BD519D4FA8400E2D0CC /* Build configuration list for PBXNativeTarget "LMDBIncrementalStore" */;
+			buildPhases = (
+				09281BAE19D4FA8400E2D0CC /* Sources */,
+				09281BAF19D4FA8400E2D0CC /* Frameworks */,
+				09281BB019D4FA8400E2D0CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMDBIncrementalStore;
+			productName = LMDBIncrementalStore;
+			productReference = 09281BB219D4FA8400E2D0CC /* libLMDBIncrementalStore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		09281BC119D4FA8400E2D0CC /* LMDBIncrementalStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09281BD819D4FA8400E2D0CC /* Build configuration list for PBXNativeTarget "LMDBIncrementalStoreTests" */;
+			buildPhases = (
+				09281BBE19D4FA8400E2D0CC /* Sources */,
+				09281BBF19D4FA8400E2D0CC /* Frameworks */,
+				09281BC019D4FA8400E2D0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09281BC919D4FA8400E2D0CC /* PBXTargetDependency */,
+			);
+			name = LMDBIncrementalStoreTests;
+			productName = LMDBIncrementalStoreTests;
+			productReference = 09281BC219D4FA8400E2D0CC /* LMDBIncrementalStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09281BAA19D4FA8400E2D0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IntelligentSprite;
+			};
+			buildConfigurationList = 09281BAD19D4FA8400E2D0CC /* Build configuration list for PBXProject "LMDBIncrementalStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09281BA919D4FA8400E2D0CC;
+			productRefGroup = 09281BB319D4FA8400E2D0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09281BB119D4FA8400E2D0CC /* LMDBIncrementalStore */,
+				09281BC119D4FA8400E2D0CC /* LMDBIncrementalStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09281BC019D4FA8400E2D0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09281BD019D4FA8400E2D0CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09281BAE19D4FA8400E2D0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09281BBD19D4FA8400E2D0CC /* LMDBIncrementalStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09281BBE19D4FA8400E2D0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09281BD219D4FA8400E2D0CC /* LMDBIncrementalStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09281BC919D4FA8400E2D0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09281BB119D4FA8400E2D0CC /* LMDBIncrementalStore */;
+			targetProxy = 09281BC819D4FA8400E2D0CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09281BCE19D4FA8400E2D0CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09281BCF19D4FA8400E2D0CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09281BD319D4FA8400E2D0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09281BD419D4FA8400E2D0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09281BD619D4FA8400E2D0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LMDBIncrementalStore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "source/LMDBIncrementalStore-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LMDBIncrementalStore-hddunlfbbsbdgnbixmfwkzoxbzwo/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		09281BD719D4FA8400E2D0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LMDBIncrementalStore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "source/LMDBIncrementalStore-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LMDBIncrementalStore-hddunlfbbsbdgnbixmfwkzoxbzwo/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		09281BD919D4FA8400E2D0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "source/LMDBIncrementalStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "tests/LMDBIncrementalStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		09281BDA19D4FA8400E2D0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "source/LMDBIncrementalStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "tests/LMDBIncrementalStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09281BAD19D4FA8400E2D0CC /* Build configuration list for PBXProject "LMDBIncrementalStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09281BD319D4FA8400E2D0CC /* Debug */,
+				09281BD419D4FA8400E2D0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09281BD519D4FA8400E2D0CC /* Build configuration list for PBXNativeTarget "LMDBIncrementalStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09281BD619D4FA8400E2D0CC /* Debug */,
+				09281BD719D4FA8400E2D0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09281BD819D4FA8400E2D0CC /* Build configuration list for PBXNativeTarget "LMDBIncrementalStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09281BD919D4FA8400E2D0CC /* Debug */,
+				09281BDA19D4FA8400E2D0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09281BAA19D4FA8400E2D0CC /* Project object */;
+}
