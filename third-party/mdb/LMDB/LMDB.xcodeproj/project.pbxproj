@@ -81,7 +81,7 @@
 				09281C2819D4FC9E00E2D0CC /* midl.h */,
 			);
 			name = liblmdb;
-			path = ../../libraries/liblmdb;
+			path = ../libraries/liblmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +259,7 @@
 				09281C0919D4FBB200E2D0CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
